@@ -1,0 +1,23 @@
+categories:
+  keywords:
+    colour: orange
+    matches: [for, def, while, from, import, as, with, self]
+
+  variables:
+    colour: red4
+    matches: ['True', 'False', None]
+
+  conditionals:
+    colour: green
+    matches: [try, except, if, else, elif]
+
+  functions:
+    colour: blue4
+    matches: [int, str, dict, list, set, float]
+
+numbers:
+  colour: purple
+
+strings:
+  colour: '#e1218b'
+

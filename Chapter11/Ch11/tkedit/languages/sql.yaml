@@ -1,0 +1,15 @@
+categories:
+  keywords:
+    colour: orange
+    matches: [select, where, and, from, order, by, group]
+
+  dangerous:
+    colour: red4
+    matches: [set, update, drop]
+
+
+numbers:
+  colour: purple
+
+strings:
+  colour: red
