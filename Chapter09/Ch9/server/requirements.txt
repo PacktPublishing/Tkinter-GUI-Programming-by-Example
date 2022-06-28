@@ -1,4 +1,4 @@
-arrow==0.12.1
+arrow==0.15.1
 certifi==2018.1.18
 chardet==3.0.4
 click==6.7
