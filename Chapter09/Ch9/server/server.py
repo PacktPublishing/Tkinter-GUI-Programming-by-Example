@@ -100,7 +100,7 @@ def send_message(username):
     data = request.form
     author = data["author"]
     message = data["message"]
-    date_sent = arrow.now().timestamp
+    date_sent = arrow.now().timestamp()
 
     conversation_db_path = get_conversation_db_path_for_users({"user_one": author, "user_two": username})
     conversation = Conversation(conversation_db_path)
